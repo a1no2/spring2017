@@ -7,7 +7,7 @@ fs.readFile(
 	function(err, data){
 		if(err) return console.log('Error!');
 		// process.exit(0);
-		console.log(process.cwd());
+		console.log(process.cwd());	//現在パス
 		process.change('/');
 		console.log("ファイルの内容は以下の通り");
 		console.log(data);

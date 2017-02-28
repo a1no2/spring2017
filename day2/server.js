@@ -5,7 +5,8 @@ const sarver = http.createServer(function(req, res){
 	res.end('Hello Node!');
 });
 
-const port = 8080;
+
+const port = 8080;	//ポート番号
 sarver.listen(port, function(){
 	console.log('serber runing on port' + port);
 });
