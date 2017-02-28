@@ -1,8 +1,20 @@
-var p = document.createElement("p");
-var str = document.createTextNode("LearningJavaScript");
-p.appendChild(str);
+// var p = document.createElement("p");
+// var str = document.createTextNode("LearningJavaScript");
+// p.appendChild(str);
 
-document.getElementById("main").appendChild(p);
+// document.getElementById("main").appendChild(p);
+
+
+
+//こっちのほうがいい？
+var one = document.getElementById("main");
+one.insertAdjacentHTML('afterend','<div>LearningJavaScript</div>');
+
+
+
+
+
+
 
 
 // 以下4つは動く
